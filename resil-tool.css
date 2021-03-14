@@ -1,0 +1,751 @@
+
+.p{
+    Line-Height:20px;
+}
+.page{
+  height:auto;
+  width:auto;
+}
+
+.sliderCSS{
+  font-size: 30px;
+
+}
+.slidecontainer {
+width: 100%;
+}
+
+.slider {
+-webkit-appearance: none;
+width: 100%;
+height: 15px;
+border-radius: 5px;
+background: #646161;
+outline: none;
+opacity: 0.7;
+-webkit-transition: .2s;
+transition: opacity .2s;
+}
+
+
+.slider:focus {
+-webkit-appearance: none;
+width: 100%;
+height: 15px;
+border-radius: 5px;
+background: #646161;
+outline: none;
+opacity: 0.7;
+-webkit-transition: .2s;
+transition: opacity .2s;
+}
+
+.slider:hover {
+opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background:#FFA500;
+cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background: #FFA500;
+cursor: pointer;
+}
+
+#cssFeedBackstyle{
+font-size: 19px;
+letter-spacing: 2px;
+word-spacing: -1.8px;
+color: #000000;
+font-weight: 500;
+text-decoration: rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal; 
+text-transform: none;
+margin-bottom: 0%;
+padding-left:15px
+}
+
+
+#feedback1,#feedback2,#feedback3{
+  text-decoration: underline;
+}
+
+.score {
+  text-align:0
+}
+.score > div {
+  vertical-align:top;
+  display:inline-block;   
+}
+.link {
+vertical-align:top;
+display:inline-block;
+}
+
+
+.scoreParent{
+display:flex;
+}
+.scoreContent{
+flex:0.1;
+
+}
+.scoreContent2{
+flex:0.1;
+
+}
+
+
+.pageMargin{
+margin-top:10%;
+}
+.pageBackgound{
+padding-top:5%;
+padding-left:10%;
+padding-right:10%;
+}
+
+.fontMain{
+color:black;
+font:Arial;
+font-size: 20px;
+}
+
+.fontheader{
+color:black;
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 1%;
+margin-top:8%;
+}
+.tab{
+margin-top:50px;
+margin-bottom:50px
+}
+.format1 {
+  text-align:0
+}
+.format1 > div {
+  vertical-align:top;
+  display:inline-block;   
+}
+.gap1{
+margin-top: 30px;
+margin-bottom: 10px;
+}
+
+
+.nextPage {
+color: #00ccff !important;
+text-transform: uppercase;
+background: #ffffff;
+font-size: 15px;
+padding: 20px;
+border: 4px solid #00ccff !important;
+border-radius: 6px; 
+display: inline-block;
+transition: all 0.3s ease 0s;
+background-color: #000000;
+margin-top:4%;
+}
+
+.nextPage:hover {   
+color: #494949 !important;
+border-radius: 50px;
+border-color: #494949 !important;
+transition: all 0.3s ease 0s;
+background-color: white;
+}
+
+
+.backPage {
+color: #ffd900 !important;
+text-transform: uppercase;
+font-size: 15px;
+padding: 20px;  
+border: 4px solid #ffd900 !important;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+background-color: #000000;
+margin-top:4%;
+}
+
+.backPage:hover {
+color: #494949 !important;
+border-radius: 50px;
+border-color: #494949 !important;
+background-color: white;
+transition: all 0.3s ease 0s;
+}
+
+
+.Submit {
+color: #20bf6b !important;
+text-transform: uppercase;
+font-size: 15px;
+padding: 20px;  
+border: 4px solid #20bf6b !important;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+background-color: #000000;
+margin-top: 4%;
+}
+
+.Submit:hover {
+color: #494949 !important;
+border-radius: 50px;
+border-color: #494949 !important;
+background-color: white;
+transition: all 0.3s ease 0s;
+}
+
+  
+.reset {
+color: #bf20bf !important;
+text-transform: uppercase;
+font-size: 15px;
+padding: 20px;  
+border: 4px solid #bf20bf !important;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+background-color: #000000;
+}
+
+.reset:hover {
+color: #494949 !important;
+border-radius: 50px;
+border-color: #494949 !important;
+background-color: white;
+transition: all 0.3s ease 0s;
+}
+
+
+/*gap between questions*/
+.cssMargin{
+padding-bottom:0%;
+}
+
+
+/* The container must be positioned relative: */
+.industry-select {
+position: relative;
+font-family: Arial;
+margin-bottom: 2%;
+}
+
+.industry-select select {
+display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+background-color:#0e347a;
+}
+
+
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+position: absolute;
+content: "";
+top: 14px;
+right: 10px;
+width: 0;
+height: 0;
+border: 6px solid transparent;
+border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+border-color: transparent transparent #fff transparent;
+top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+color: #ffffff;
+padding: 8px 16px;
+border: 1px solid transparent;
+border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+position: absolute;
+background-color:#0e347a;
+top: 100%;
+left: 0;
+right: 0;
+z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+background-color: rgba(255, 255, 255, 0.1);
+} 
+
+/* alertpopups */
+.alertPopUp{
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+font-size: 20px;
+
+}
+
+.alertPopUp-content {
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 60%;
+}
+
+.closeButton {
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.closeButton:hover,
+.closeButton:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+/* alertpopups END*/
+
+
+/*FEEDBACKCSS*/
+.boxParent{
+border-left: 15px groove #2E6ABE;
+
+}
+
+
+/*progression box*/
+/*DESTOP VERS*/
+@media screen and (min-width: 768px) {
+#progression{
+  border: 15px groove #2E6ABE;
+  min-width: 1%;
+  max-width: 40%;
+  padding-top: 2%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-bottom: 2%;
+  /*z-index: 1;*/
+  float:right;
+  right: 10%;
+  height: auto;
+  min-height: 5%;
+  overflow: auto;
+  max-height: 55%;
+} 
+}
+
+/*MOBILE VERS*/
+@media screen and (max-width: 768px) {
+  #progression{
+    border: 15px groove #2E6ABE;
+    min-width: 1%;
+    padding-top: 2%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 2%;
+    /*z-index: 1;*/
+    position: absolute;
+    right: 10%;
+    height: auto;
+    min-height: 5%;
+    /*overflow: auto;*/
+    max-height: 55%;
+  } 
+
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+tr:nth-child(3){
+  background-color: #d0cf15;
+}
+tr:not(:nth-child(even)):not(:nth-child(3)) {
+  background-color: #dddddd;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+}
+th:first-child, td:first-child {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+th:last-child, td:last-child{
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+#progressheader{
+font-size: 16px;
+padding:1%;
+}
+
+#dummytable{
+  filter: blur(0.15rem) grayscale(60%);
+  user-select: none;  
+}
+#sign_up_wrapper{ 
+  left: 50%;
+}
+
+#sign_up{
+  z-index: 1;
+  position: absolute;
+  background-color: #00000061;
+  /*
+  margin-left: -6%;
+  margin-right: 6%;
+  margin-top: -3%;
+  */
+  width: 200px;
+}
+#ad_btn{
+  color: #ffffff !important;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  border: 4px solid #ffffff !important;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  background-color: #489e2f;
+  margin-right: 33%;
+  margin-bottom: 17%;
+  margin-left: 16%;
+  margin-top: 20%;
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  width: 70%;
+}
+
+
+#ad_btn:hover{
+  color: #494949 !important;
+  border-radius: 50px;
+  border-color: #494949 !important;
+  background-color: white;
+  transition: all 0.3s ease 0s;
+}
+
+#ad_slogan{
+  text-align: center;
+  font-weight: 1000;
+  color: white;
+  margin-top: 13%;
+  margin-bottom: 7%;
+}
+
+
+
+
+
+
+.select-items div, .select-selected {
+  color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.select-items {
+  position: absolute;
+  background-color: #0e347a;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  max-width: 100%;
+}
+
+
+
+
+
+
+/* progression display:none/block toggle if loggin or not*/
+#logged_table {
+  display:none !important; 
+}
+
+.user-is-loggedin #sign_up_wrapper { 
+  display:none !important;
+}
+
+.user-is-loggedin input#sign_up { 
+  display:none !important; 
+}
+.user-is-loggedin #logged_table { 
+  display:block !important;
+}
+
+.user-is-loggedin #dummytable  {
+  display:none !important;
+}
+
+
+/* drop down list for #progression*/
+
+#logged_table tr{ display:none;
+}
+
+#loadMore {
+    color:green;
+    cursor:pointer;
+}
+#loadMore:hover {
+    color:black;
+}
+#showLess {
+    color:red;
+    cursor:pointer;
+    display:none;
+}
+#showLess:hover {
+    color:black;
+}
+
+/* red warning sign*/
+.parent{
+display:flex;
+padding-left:15px
+}
+.contentWarp{
+flex:inherit;
+padding-right: 1px;
+}
+
+.parent2{
+display:flex;
+padding-left:15px
+}
+.contentWarp2{
+flex:inherit;
+padding-right:5px;
+}
+
+#warningID1{
+color: red;
+font-size: 32px;
+padding-left:1%;
+} 
+#warningID2{
+color: red;
+font-size: 32px;
+padding-left:1%;
+}
+/*end of warning sign*/
+/*gaps*/
+.gap1{
+margin-top:50px;
+margin-bottom:50px;
+}
+
+
+/*Radio CSS */
+
+/* The container */
+.containerRadio {
+display: block;
+position: relative;
+padding-left: 35px;
+margin-bottom: 12px;
+cursor: pointer;
+font-size: 18px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-left:2%; 
+}
+
+/* Hide the browser's default radio button */
+.containerRadio input {
+position: absolute;
+opacity: 0;
+cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+position: absolute;
+top: 0;
+left: 0;
+height: 26px;
+width: 26px;
+background-color: #eee;
+border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerRadio:hover input ~ .checkmark {
+background-color: rgb(158, 158, 158);
+}
+
+/* When the radio button is checked, add a blue background */
+.containerRadio input:checked ~ .checkmark {
+background-color: #0e347a;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+content: "";
+position: absolute;
+display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerRadio input:checked ~ .checkmark:after {
+display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerRadio .checkmark:after {
+top: 6px;
+left: 6px;
+width: 14px;
+height: 14px;
+border-radius: 60%;
+background: #ffffff;
+}
+
+.label{
+font-weight: 400 !important
+}
+
+
+/* mobile mode for #progression*/
+/*small 425px --> large 1200px*/
+/*changes how result page is displayed for non-loggedin users*/
+
+@media screen and (max-width: 425px){
+p{
+  font-size: 18px !important;
+}
+}
+
+
+/*generic override for size below 600px*/
+@media screen and (max-width: 600px){
+  #sign_up_wrapper{ 
+    left: 50%;
+  }
+  
+  #sign_up{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+  .select-items {
+    position: absolute;
+    background-color: #0e347a;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    max-width: 50%;
+    font-size: 18px;
+  }
+  
+  .select-items div, .select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    max-width: 50%;
+    font-size: 18px;
+  }
+  #progression{
+    border-left: 10px groove #2E6ABE;
+    min-width: 0%;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    position: relative;
+    height: auto;
+    min-height: 5%;
+    overflow: auto;
+    margin-bottom: 10%;
+    max-height: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+  .alertPopUp-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    font-size: 22px !important;
+}
+p.p_alert{
+  font-size:20px !important;
+}
+
+}
+
+/*LAPTOP*/
+@media screen and (max-width: 1200px){
+p#linkStatement{
+  max-width:400px;
+}
+
+
+}
+/*TABLET*/
+@media screen and (max-width: 1200px){
+  .boxParent{
+    max-width: 255px;
+  }
+}

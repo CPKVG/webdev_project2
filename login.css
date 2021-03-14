@@ -1,0 +1,101 @@
+
+/*desktop vers*/
+@media screen and (min-width: 768px) {
+.loginform{
+padding:0;
+};
+
+.Login_heading{
+    display:block;
+  }
+
+
+.Login_heading{
+    clear: both;
+    font-size: 3.125rem;
+    margin: 0 0 0.75em;
+    padding: 0.5em 0 0;
+  }
+
+.login_overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F6;
+    opacity: 0.9;
+    position: fixed;
+    /*z-index: 998;*/
+}
+
+a.lost,a.myBtn_passr{
+    font-size: 0.8em;
+    margin-left: 1em;
+
+}
+a.lost:hover{
+    opacity: 50%;
+  }
+.lost_container{
+    margin-top: 2em;
+    display:flex;
+    align-items: center;
+}
+
+a.lost_mobile{
+    display:none;
+}
+.button_container{
+    margin-top: 1em;
+    display:block;
+};
+
+
+}
+
+  /*mobile vers*/
+@media screen and (max-width: 767px) {
+
+.loginform{
+padding:0;
+};
+
+.Login_heading{
+    display:block;
+}
+
+.Login_heading{
+    clear: both;
+    font-size: 3.125rem;
+    margin: 0 0 0.75em;
+    padding: 0.5em 0 0;
+}
+
+.button_container{
+    margin-top: 1em;
+    display:block;
+};
+
+.login_overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F6;
+    opacity: 0.9;
+    position: fixed;
+}
+/*forgotpassword hyperlink*/
+a.lost{
+display:none;
+}
+a.lost_mobile{
+    height: 100%;
+    margin-top: 1em;
+}
+a.lost:hover{
+    opacity: 50%;
+  }
+.lost_container{
+    margin-top:2em;
+    display:flex;
+    align-items: center;
+}
+
+  }

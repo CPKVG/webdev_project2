@@ -1,0 +1,1800 @@
+
+/*constrain this with if on jquery on error-mes activated*/
+/*
+.left1 {  
+  margin-bottom: 2em;
+}
+.right1 {
+  margin-bottom: 2em;
+}
+*/
+
+
+/* columns css*/
+/*MOBILE VERS*/
+@media screen and (max-width: 768px) {
+	.left1, .right1 {
+    width: 100%;
+    margin-bottom:0.25em;
+  }
+  
+  .modal-contenta1{
+    background-color: #fefefe;
+    /* margin: 15% 15% 15% 10%; */
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 1300px;
+    z-index: 1000;
+    max-width: 900px;
+  }
+
+  input[type="text"],input[type="password"]{
+    background: #f5f5f5;
+    border: 1px solid #EEE;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    border-radius: 0; 
+}
+
+input[type="password"]:hover,input[type="password"]:focus,input[type="password"]:active{
+  border: 1px solid; /*#e87020 !important;*/
+  border-color: #e87020;
+  background: #e7f0fe;
+}
+
+
+.form-label{
+  height: 10px;
+
+}
+
+.leftInline2{
+  width: 130px; 
+  float:left;  
+  margin-left:1em;
+}
+select#towns{
+  min-width:130px;  
+
+}
+
+select{
+height: 50px;
+width: 100%;
+margin-bottom: 10px;
+}
+select#towns{
+  margin-left: 50%;
+}
+
+.regform{
+  padding-right:2em;
+  padding-left:2em;
+  padding-bottom:3em;
+  padding-top:2em;
+  width:70%;
+  margin:auto;
+}
+
+
+.register-heading{
+  display:block;
+}
+.regform{
+  padding-right:2em;
+  padding-left:2em;
+  padding-bottom:3em;
+  padding-top:2em;
+  width:70%;
+  margin:auto;
+}
+
+
+.register-heading{
+  display:block;
+}
+
+
+.reg_header{
+  padding-top:1em;
+padding-bottom:1em;
+width:auto;
+float: left;
+width: 100%;
+font-size: 1.25em;
+}
+
+.Register_heading{
+  clear: both;
+  font-size: 3.125rem;
+  margin:0;
+  padding:0;
+}
+
+.reg_margin{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+::placeholder {
+color: grey;
+}
+
+
+
+#regform input[type="text"]{
+  display: inline;
+  margin : 0 auto;
+}
+
+
+
+#input-style{
+width:100px;
+}
+/*input type text is stored in style.css*/
+
+input[type="password"]{
+background: #f5f5f5;
+/* border: 1px solid rgb(95, 95, 95); */
+border: 1px solid#ccc !important;
+width: 100%;
+height: 40px;
+padding-left: 20px;
+margin-bottom: 0px;
+font-weight: 500;
+border-radius: 0;
+}
+
+input[type="password"]:hover,/*input[type="password"]:focus,*/input[type="password"]:active{
+border: 1px solid; /*#e87020 !important;*/
+border-color: #e87020;
+background: #e7f0fe;
+}
+/*REMOVE FOCUS OUTLINES*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+
+input[type="password"]:focus{
+border: 1px solid; /*#e87020 !important;*/
+border-color: #e87020;
+background: #e7f0fe;
+}
+
+input[type="text"], input[type="search"], input[type="email"], input[type="tel"] {
+background: #f5f5f5;
+border: 1px solid#ccc !important;
+width: 100%;
+height: 40px;
+padding-left: 20px;
+margin-bottom: 0px;
+font-weight: 500;
+border-radius: 0;
+margin-bottom: 10px;
+}
+
+.error_mes{
+  margin-bottom:0px;
+  color: red;
+  padding-bottom: 0px;
+}
+
+
+
+.left_container{
+  height: 4em;
+  width: auto;
+  float: left;
+  width: 48%;
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+
+input[name=username],
+input[name=mail],
+input[name=password],
+input[name=repassword],
+input[name=firstname],
+input[name=lastname],
+input[name=businssname],
+input[name=businessage],
+input[name=Postcode],
+select[id=cities],
+select[id=industselect1],
+select[id=sizebusiness]
+{
+    background: #f5f5f5;
+    border: 1px solid#ccc !important;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+    border-radius: 0;
+}
+
+
+.modal-button-container{
+margin-top:0.5em;
+margin-bottom:1em;
+}
+
+
+.menu1 {
+position: absolute;
+left: 0;
+top: 100%;
+background: #ccc;
+display: none;
+}
+
+ul.nav-menu > li > ul > li ul
+{
+left: 100%;
+top: 0px;
+position: absolute;
+}
+
+
+
+.dropdown-emulator-selected{
+width:100px;
+padding:5px;
+border:1px solid #000;
+float:left;
+height:30px
+}
+
+.dropdown-emulator-select-btn{
+float:left;
+padding:5px;
+border:1px solid #000;
+height:30px;
+width:20px;
+text-decoration:none;
+font-family:helvetica;
+text-align:center;
+}
+
+.dropdown-emulator{
+position:relative;
+}
+
+.dropdown-emulator ul{
+position:absolute;
+top:27px;
+left:0;
+list-style:none;
+margin:0;
+display:none;
+padding:0;
+width:100px;
+padding:5px;
+border:1px solid #000;
+}
+
+.dropdown-emulator ul li{
+padding:5px;   
+}
+
+A:hover {text-decoration: none;} 
+
+#login_button{
+  margin-right: 1em !important;
+  margin-top: 1em !important;
+  background-color: rgb(51 51 49 / 88%) !important;
+  border: rgb(255 255 255) 2px solid!important;
+  box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+  color: white !important;
+  border-radius: 10px !important;
+  flex: 0.2 !important;
+  font-weight: normal !important;
+  font-size:14px !important;
+  /*margin-left:50%;*/
+  margin-right:50%;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+}
+
+#reset_password,#reg_button.btn-primary,input.submit_button{
+margin-right: 1em !important;
+margin-top: 1em !important;
+background-color: rgb(51 51 49 / 88%) !important;
+border: rgb(255 255 255) 2px solid!important;
+box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+color: white !important;
+border-radius: 10px !important;
+flex: 0.2 !important;
+font-weight: normal !important;
+font-size:14px !important;
+/*padding:0.8em 0.8em 0.8em 0 !important;*/
+margin:0.8em 0.8em 0.8em !important;
+margin-left:50%;
+font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+  }
+
+  .button_container{
+    align-content: center;
+    display: flex;
+  }
+
+  /*button position */
+  #myBtn{/*reg button*/
+    float:right;
+    margin-right: 0.5em;
+  }
+  #myBtn_login{/*login button*/
+    float:right;
+    margin-right: 1em;
+  }
+
+  .button_wrapper{
+    overflow:auto;
+  }
+  .login_button{
+    float:right;
+  }
+  .logout_link{
+    float:right;
+  }
+
+
+/*end of modal buttons*/
+
+
+
+/*applies to all buttons*/
+.btn-primary:hover{
+  opacity: 50%;
+  }
+
+.btn-primary:focus{
+opacity: 50%;
+  }
+
+  #reset_password.btn-primary{
+    background-color: rgb(51 51 49 / 88%) !important;
+    border: rgb(255 255 255) 2px solid!important;
+    box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+    color: white !important;
+    border-radius: 10px !important;
+    font-weight: normal !important;
+    font-size:14px !important;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+    margin-top:1em;
+  }
+
+  
+/****buttons for login,reg and password reset/forgotton passwords ***/
+
+.btn-primary{
+background-color: rgb(51 51 49 / 88%) !important;
+border: rgb(255 255 255) 2px solid!important;
+box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+color: white !important;
+border-radius: 10px !important;
+font-weight: normal !important;
+font-size:14px !important;
+font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+}
+
+
+
+/*registration buttons*/
+#modal_close,#register_me{
+background-color: rgb(51 51 49 / 88%) !important;
+border: rgb(255 255 255) 2px solid!important;
+box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+color: white !important;
+border-radius: 10px !important;
+font-weight: normal !important;
+font-size:14px !important;
+font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+height: 50px;
+width: 48%;
+}
+#modal_close:hover,#register_me:hover,#modal_close:focus,#register_me:focus{
+opacity: 50%;
+}
+
+
+/*end of button css*/
+
+/*MODAL CSS V2 registration*/
+
+/* The Modal (background) */
+.modala1 {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+z-index: 2;
+}
+
+#error-message{
+margin-bottom:1em;
+}
+
+
+/* The Close Button */
+.closea1 {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.closea1:hover,
+.closea1:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+/*MODAL CSS V2 Login*/
+
+.login_modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+z-index: 2;
+}
+
+/* Modal Content/Box */
+.modal_content_login {
+background-color: #fefefe;
+/* margin: 15% 15% 15% 10%; */
+margin-top: 10%;
+margin-bottom: 5%;
+margin-left: 10%;
+margin-right: 20%;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+height: 40%;
+z-index: 1000;
+max-width: 900px;
+}
+
+/* The Close Button */
+.close_login {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close_login:hover,
+.close_login:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+
+/*MODAL CSS V2 Passreset*/
+
+.passr_modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+z-index: 2;
+}
+
+/* Modal Content/Box */
+.modal_content_passr {
+background-color: #fefefe;
+/* margin: 15% 15% 15% 10%; */
+margin-top: 15%;
+margin-bottom: 5%;
+margin-left: auto;
+margin-right: 10%;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+height: 25%;
+z-index: 1000;
+max-width: 900px;
+}
+
+/* The Close Button */
+.close_passr {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close_passr:hover,
+.close_passr:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+/*success modal, only shown before email verification*/
+.mes_mdoal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-contenta3 {
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+}
+
+/* The Close Button */
+.modal_close {
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.modal_close:hover,
+.modal_close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+#Email_modal_btn_req{
+  margin-right: 1em !important;
+  margin-top: 1em !important;
+  background-color: rgb(51 51 49 / 88%) !important;
+  border: rgb(255 255 255) 2px solid!important;
+  box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+  color: white !important;
+  border-radius: 10px !important;
+  flex: 1 !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  padding: 0.8em 0.8em 0.8em 0 !important;
+  margin: 0.8em 0.8em 0.8em 0 !important;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+
+}
+
+  }
+
+
+  /*laptop VERS*/
+
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .left1 {
+      height:4em;
+      width:auto;
+      float: left;
+      width: 48%;
+      padding-left: 2em;
+      margin-bottom:1em;
+      
+    }
+    .right1 {
+      height:4em;
+      width:auto;
+      float: right;
+      width: 48%;
+      padding-right: 2em;
+     margin-bottom:1em;
+      
+    }
+  
+    .leftInline1{
+      float:left;  margin-right:1em;
+  
+    }
+  
+    .leftInline2{
+      width: 130px; 
+      float:left;  
+      margin-left:1em;
+    }
+    select#towns{
+      min-width:130px;  
+  
+    }
+  
+  select{
+    height: 50px;
+    width: 100%;
+  }
+  
+  
+  
+    .regform{
+      padding-right:2em;
+      padding-left:2em;
+      padding-bottom:3em;
+      padding-top:2em;
+      width:70%;
+      margin:auto;
+    }
+  
+  
+    .register-heading{
+      display:block;
+    }
+  
+  
+    .reg_header{
+      padding-top:1em;
+    padding-left:2em;
+    padding-bottom:1em;
+    width:auto;
+    float: left;
+    width: 100%;
+    padding-left: 2em;
+    font-size: 1.25em;
+    }
+  
+    .Register_heading{
+      clear: both;
+      font-size: 3.125rem;
+      margin: 0 0 0.75em;
+      padding: 0.5em 0 0;
+    }
+  
+    .reg_margin{
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+  
+  
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+  
+    ::placeholder {
+    color: grey;
+    }
+  
+    
+  
+    #regform input[type="text"]{
+      display: inline;
+      margin : 0 auto;
+    }
+    
+  
+  
+  #input-style{
+    width:100px;
+  }
+  /*input type text is stored in style.css*/
+  
+  input[type="password"]{
+    background: #f5f5f5;
+    /* border: 1px solid rgb(95, 95, 95); */
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    border-radius: 0;
+  
+  }
+  
+  input[type="password"]:hover,/*input[type="password"]:focus,*/input[type="password"]:active{
+    border: 1px solid; /*#e87020 !important;*/
+    border-color: #e87020;
+    background: #e7f0fe;
+  }
+  /*REMOVE FOCUS OUTLINES*/
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  
+  
+  input[type="password"]:focus{
+    border: 1px solid; /*#e87020 !important;*/
+    border-color: #e87020;
+    background: #e7f0fe;
+  }
+  
+  input[type="text"], input[type="search"], input[type="email"], input[type="tel"] {
+    background: #f5f5f5;
+    border: 1px solid#ccc !important;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    border-radius: 0;
+  }
+  
+  
+  
+  
+  .modal-button-container{
+    margin-top:0.5em;
+    margin-bottom:1em;
+  }
+  
+  
+  .menu1 {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #ccc;
+    display: none;
+  }
+  
+  ul.nav-menu > li > ul > li ul
+  {
+   left: 100%;
+   top: 0px;
+   position: absolute;
+  }
+  
+  
+  
+  .dropdown-emulator-selected{
+    width:100px;
+    padding:5px;
+    border:1px solid #000;
+    float:left;
+    height:30px
+  }
+  
+  .dropdown-emulator-select-btn{
+    float:left;
+    padding:5px;
+    border:1px solid #000;
+    height:30px;
+    width:20px;
+    text-decoration:none;
+    font-family:helvetica;
+    text-align:center;
+  }
+  
+  .dropdown-emulator{
+  position:relative;
+  }
+  
+  .dropdown-emulator ul{
+  position:absolute;
+  top:27px;
+  left:0;
+  list-style:none;
+  margin:0;
+  display:none;
+  padding:0;
+  width:100px;
+  padding:5px;
+  border:1px solid #000;
+  }
+  
+  .dropdown-emulator ul li{
+    padding:5px;   
+  }
+  
+  A:hover {text-decoration: none;} 
+  
+  
+  #reset_password,#login_button,#reg_button.btn-primary,input.submit_button{
+    margin-right: 1em !important;
+    margin-top: 1em !important;
+    background-color: rgb(51 51 49 / 88%) !important;
+    border: rgb(255 255 255) 2px solid!important;
+    box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+    color: white !important;
+    border-radius: 10px !important;
+    flex: 0.2 !important;
+    font-weight: normal !important;
+    font-size:14px !important;
+    /*padding:0.8em 0.8em 0.8em 0 !important;*/
+    margin:0.8em 0.8em 0.8em 0 !important;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+      }
+    
+      .button_container{
+        align-content: center;
+        display: flex;
+      }
+  /*forgotpassword hyperlink*/
+      a.lost{
+        color:blue !important;
+      }
+      /*button position */
+      #myBtn{/*reg button*/
+        float:right;
+        margin-right: 0.5em;
+      }
+      #myBtn_login{/*login button*/
+        float:right;
+        margin-right: 1em;
+      }
+  
+      .button_wrapper{
+        overflow:auto;
+      }
+      .login_button{
+        float:right;
+      }
+      .logout_link{
+        float:right;
+      }
+  
+  
+  /*end of modal buttons*/
+  
+  
+  
+  /*applies to all buttons*/
+    .btn-primary:hover{
+      opacity: 50%;
+      }
+  
+    .btn-primary:focus{
+    opacity: 50%;
+      }
+  
+      #reset_password.btn-primary{
+        background-color: rgb(51 51 49 / 88%) !important;
+        border: rgb(255 255 255) 2px solid!important;
+        box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+        color: white !important;
+        border-radius: 10px !important;
+        font-weight: normal !important;
+        font-size:14px !important;
+        font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+        margin-top:1em;
+      }
+  
+      
+  /****buttons for login,reg and password reset/forgotton passwords ***/
+  
+  .btn-primary{
+    background-color: rgb(51 51 49 / 88%) !important;
+    border: rgb(255 255 255) 2px solid!important;
+    box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+    color: white !important;
+    border-radius: 10px !important;
+    font-weight: normal !important;
+    font-size:14px !important;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+  }
+  
+  
+  
+  /*registration buttons*/
+  #modal_close,#register_me{
+    background-color: rgb(51 51 49 / 88%) !important;
+    border: rgb(255 255 255) 2px solid!important;
+    box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+    color: white !important;
+    border-radius: 10px !important;
+    font-weight: normal !important;
+    font-size:14px !important;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+    height: 50px;
+    width: 48%;
+  }
+  #modal_close:hover,#register_me:hover,#modal_close:focus,#register_me:focus{
+    opacity: 50%;
+  }
+  
+  
+    /*end of button css*/
+  
+  /*MODAL CSS V2 registration*/
+  
+  /* The Modal (background) */
+  .modala1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 2;
+  }
+  
+  /* Modal Content/Box */
+  .modal-contenta1 {
+    background-color: #fefefe;
+    /* margin: 15% 15% 15% 10%; */
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: auto;
+    padding: 20px 20px 0% 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 100%;
+    z-index: 1000;
+    max-width: 900px;
+    min-height: 800px;
+  
+  }
+  
+  #error-message{
+    margin-bottom:1em;
+  }
+  
+  
+  /* The Close Button */
+  .closea1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closea1:hover,
+  .closea1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+/*modal error-registration*/
+.error_mes{
+  margin-bottom:0px;
+  color: red;
+  padding-bottom: 0px;
+}
+
+
+
+.left_container{
+  height: 4em;
+  width: auto;
+  float: left;
+  width: 48%;
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+
+input[name=username],
+input[name=mail],
+input[name=password],
+input[name=repassword],
+input[name=firstname],
+input[name=lastname],
+input[name=businssname],
+input[name=businessage],
+input[name=Postcode],
+select[id=cities],
+select[id=industselect1],
+select[id=sizebusiness]
+{
+    background: #f5f5f5;
+    border: 1px solid#ccc !important;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*MODAL CSS V2 Login*/
+  
+  .login_modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 2;
+  }
+  
+  /* Modal Content/Box */
+  .modal_content_login {
+    background-color: #fefefe;
+    /* margin: 15% 15% 15% 10%; */
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 40%;
+    z-index: 1000;
+    max-width: 900px;
+    min-height: 350px;
+  }
+  
+  /* The Close Button */
+  .close_login {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close_login:hover,
+  .close_login:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  /*MODAL CSS V2 Passreset*/
+  
+  .passr_modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 2;
+  }
+  
+  /* Modal Content/Box */
+  .modal_content_passr {
+    background-color: #fefefe;
+    /* margin: 15% 15% 15% 10%; */
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 25%;
+    z-index: 1000;
+    max-width: 900px;
+  }
+  
+  /* The Close Button */
+  .close_passr {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close_passr:hover,
+  .close_passr:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /*success modal, only shown before email verification*/
+  .mes_mdoal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-contenta3 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .modal_close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .modal_close:hover,
+  .modal_close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /*password request email button modal*/
+  #Email_modal_btn_req{
+  
+    margin-right: 1em !important;
+    margin-top: 1em !important;
+    background-color: rgb(51 51 49 / 88%) !important;
+    border: rgb(255 255 255) 2px solid!important;
+    box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+    color: white !important;
+    border-radius: 10px !important;
+    flex: 0.2 !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    padding: 0.8em 0.8em 0.8em 0 !important;
+    margin: 0.8em 0.8em 0.8em 0 !important;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+  
+  }
+  
+  
+  
+    }
+
+
+
+
+
+
+
+  /*DESKTOP VERS*/
+  
+  @media screen and (min-width: 1025px) {
+	.left1 {
+    height:4em;
+    width:auto;
+		float: left;
+		width: 48%;
+    padding-left: 2em;
+    margin-bottom:1em;
+	  
+	}
+	.right1 {
+    height:4em;
+    width:auto;
+	  float: right;
+    width: 48%;
+    padding-right: 2em;
+   margin-bottom:1em;
+    
+  }
+
+  .leftInline1{
+    float:left;  margin-right:1em;
+
+  }
+
+  .leftInline2{
+    width: 130px; 
+    float:left;  
+    margin-left:1em;
+  }
+  select#towns{
+    min-width:130px;  
+
+  }
+
+select{
+  height: 50px;
+  width: 100%;
+}
+
+
+
+  .regform{
+    padding-right:2em;
+    padding-left:2em;
+    padding-bottom:3em;
+    padding-top:2em;
+    width:70%;
+    margin:auto;
+  }
+
+
+  .register-heading{
+    display:block;
+  }
+
+
+  .reg_header{
+    padding-top:1em;
+  padding-left:2em;
+  padding-bottom:1em;
+  width:auto;
+  float: left;
+  width: 100%;
+  padding-left: 2em;
+  font-size: 1.15em;
+  }
+
+  .Register_heading{
+    clear: both;
+    font-size: 3.125rem;
+    margin: 0 0 0.75em;
+    padding: 0.5em 0 0;
+  }
+
+  .reg_margin{
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  ::placeholder {
+	color: grey;
+  }
+
+  
+
+  #regform input[type="text"]{
+    display: inline;
+    margin : 0 auto;
+  }
+  
+/*modal registration*/
+.error_mes{
+  margin-bottom: 20px;
+  color: red;
+  padding-bottom: 20px;
+}
+
+
+
+.left_container{
+  height: 4em;
+  width: auto;
+  float: left;
+  width: 48%;
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+
+input[name=username],
+input[name=mail],
+input[name=password],
+input[name=repassword],
+input[name=firstname],
+input[name=lastname],
+input[name=businssname],
+input[name=businessage],
+input[name=Postcode],
+select[id=cities],
+select[id=industselect1],
+select[id=sizebusiness]
+{
+    background: #f5f5f5;
+    border: 1px solid#ccc !important;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+    border-radius: 0;
+}
+/*end of modal reg*/
+
+#input-style{
+  width:100px;
+}
+/*input type text is stored in style.css*/
+
+input[type="password"]{
+  background: #f5f5f5;
+  /* border: 1px solid rgb(95, 95, 95); */
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  border-radius: 0;
+
+}
+
+input[type="password"]:hover,/*input[type="password"]:focus,*/input[type="password"]:active{
+  border: 1px solid; /*#e87020 !important;*/
+  border-color: #e87020;
+  background: #e7f0fe;
+}
+/*REMOVE FOCUS OUTLINES*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+input[type="password"]:focus{
+  border: 1px solid; /*#e87020 !important;*/
+  border-color: #e87020;
+  background: #e7f0fe;
+}
+
+input[type="text"], input[type="search"], input[type="email"], input[type="tel"] {
+	background: #f5f5f5;
+	border: 1px solid#ccc !important;
+	width: 100%;
+	height: 50px;
+	padding-left: 20px;
+	font-weight: 500;
+	margin-bottom: 24px;
+	border-radius: 0;
+}
+
+
+
+
+.modal-button-container{
+  margin-top:0.5em;
+  margin-bottom:1em;
+}
+
+
+.menu1 {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #ccc;
+  display: none;
+}
+
+ul.nav-menu > li > ul > li ul
+{
+ left: 100%;
+ top: 0px;
+ position: absolute;
+}
+
+
+
+.dropdown-emulator-selected{
+  width:100px;
+  padding:5px;
+  border:1px solid #000;
+  float:left;
+  height:30px
+}
+
+.dropdown-emulator-select-btn{
+  float:left;
+  padding:5px;
+  border:1px solid #000;
+  height:30px;
+  width:20px;
+  text-decoration:none;
+  font-family:helvetica;
+  text-align:center;
+}
+
+.dropdown-emulator{
+position:relative;
+}
+
+.dropdown-emulator ul{
+position:absolute;
+top:27px;
+left:0;
+list-style:none;
+margin:0;
+display:none;
+padding:0;
+width:100px;
+padding:5px;
+border:1px solid #000;
+}
+
+.dropdown-emulator ul li{
+  padding:5px;   
+}
+
+A:hover {text-decoration: none;} 
+
+
+#reset_password,#login_button,#reg_button.btn-primary,input.submit_button{
+  margin-right: 1em !important;
+  margin-top: 1em !important;
+  background-color: rgb(51 51 49 / 88%) !important;
+  border: rgb(255 255 255) 2px solid!important;
+  box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+  color: white !important;
+  border-radius: 10px !important;
+  flex: 0.2 !important;
+  font-weight: normal !important;
+  font-size:14px !important;
+  /*padding:0.8em 0.8em 0.8em 0 !important;*/
+  margin:0.8em 0.8em 0.8em 0 !important;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+    }
+  
+    .button_container{
+      align-content: center;
+      display: flex;
+    }
+/*forgotpassword hyperlink*/
+    a.lost{
+      color:blue !important;
+    }
+    /*button position */
+    #myBtn{/*reg button*/
+      float:right;
+      margin-right: 0.5em;
+    }
+    #myBtn_login{/*login button*/
+      float:right;
+      margin-right: 1em;
+    }
+
+    .button_wrapper{
+      overflow:auto;
+    }
+    .login_button{
+      float:right;
+    }
+    .logout_link{
+      float:right;
+    }
+
+
+/*end of modal buttons*/
+
+
+
+/*applies to all buttons*/
+  .btn-primary:hover{
+    opacity: 50%;
+    }
+
+  .btn-primary:focus{
+  opacity: 50%;
+    }
+
+    #reset_password.btn-primary{
+      background-color: rgb(51 51 49 / 88%) !important;
+      border: rgb(255 255 255) 2px solid!important;
+      box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+      color: white !important;
+      border-radius: 10px !important;
+      font-weight: normal !important;
+      font-size:14px !important;
+      font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+      margin-top:1em;
+    }
+
+    
+/****buttons for login,reg and password reset/forgotton passwords ***/
+
+.btn-primary{
+  background-color: rgb(51 51 49 / 88%) !important;
+  border: rgb(255 255 255) 2px solid!important;
+  box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+  color: white !important;
+  border-radius: 10px !important;
+  font-weight: normal !important;
+  font-size:14px !important;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+}
+
+
+
+/*registration buttons*/
+#modal_close,#register_me{
+  background-color: rgb(51 51 49 / 88%) !important;
+  border: rgb(255 255 255) 2px solid!important;
+  box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+  color: white !important;
+  border-radius: 10px !important;
+  font-weight: normal !important;
+  font-size:14px !important;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+  height: 50px;
+  width: 48%;
+}
+#modal_close:hover,#register_me:hover,#modal_close:focus,#register_me:focus{
+  opacity: 50%;
+}
+
+
+  /*end of button css*/
+
+/*MODAL CSS V2 registration*/
+
+/* The Modal (background) */
+.modala1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 2;
+}
+
+/* Modal Content/Box */
+.modal-contenta1 {
+  background-color: #fefefe;
+  /* margin: 15% 15% 15% 10%; */
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px 20px 0% 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 100%;
+  z-index: 1000;
+  max-width: 900px;
+  min-height: 800px;
+
+}
+
+#error-message{
+  margin-bottom:1em;
+}
+
+
+/* The Close Button */
+.closea1 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closea1:hover,
+.closea1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*MODAL CSS V2 Login*/
+
+.login_modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 2;
+}
+
+/* Modal Content/Box */
+.modal_content_login {
+  background-color: #fefefe;
+  /* margin: 15% 15% 15% 10%; */
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 40%;
+  z-index: 1000;
+  max-width: 900px;
+  min-height:350px
+}
+
+/* The Close Button */
+.close_login {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close_login:hover,
+.close_login:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*MODAL CSS V2 Passreset*/
+
+.passr_modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 2;
+}
+
+/* Modal Content/Box */
+.modal_content_passr {
+  background-color: #fefefe;
+  /* margin: 15% 15% 15% 10%; */
+  margin-top: 15%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 25%;
+  z-index: 1000;
+  max-width: 900px;
+}
+
+/* The Close Button */
+.close_passr {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close_passr:hover,
+.close_passr:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*success modal, only shown before email verification*/
+.mes_mdoal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-contenta3 {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.modal_close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal_close:hover,
+.modal_close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*password request email button modal*/
+#Email_modal_btn_req{
+
+  margin-right: 1em !important;
+  margin-top: 1em !important;
+  background-color: rgb(51 51 49 / 88%) !important;
+  border: rgb(255 255 255) 2px solid!important;
+  box-shadow: rgb(162 160 160) 5px 2px 8px 1px !important;
+  color: white !important;
+  border-radius: 10px !important;
+  flex: 0.2 !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  padding: 0.8em 0.8em 0.8em 0 !important;
+  margin: 0.8em 0.8em 0.8em 0 !important;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif !important;
+
+}
+
+
+
+  }

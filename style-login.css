@@ -1,0 +1,107 @@
+.login h1 a {
+	background-image: url('../images/w-logo-blue.png?ver=20131202');
+	background-image: none, url('../images/wordpress-logo.svg?ver=20131107');
+	background-size: 80px 80px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	color: #999;
+	height: 80px;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.3em;
+	margin: 0 auto 25px;
+	padding: 0;
+	text-decoration: none;
+	width: 80px;
+	text-indent: -9999px;
+	outline: none;
+	overflow: hidden;
+	display: block;
+}
+
+#login h1 a, .login h1 a{
+    display:none;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+    color: #02181f;
+}
+
+
+.login form{
+    margin-top: 35px;
+    margin-left: 0;
+    padding: 35px 30px 50px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #515233;
+    box-shadow: 4px 4px 7px 6px rgba(0,0,0,0.25);
+    border-radius: 10px !important;
+}
+
+
+
+body.login{
+    background-image: url("http://localhost/wordpressdevtest/wp-content/uploads/2020/07/4k-wallpaper-background-blur-blurred-background-1242348-scaled.jpg");
+    background-size:cover;
+}
+
+input[type=text]:focus{
+    border-color: #024ef1;
+    box-shadow: 4px 4px 7px 6px rgba(0,0,0,0.25) #90979a;
+    outline: 2px solid transparent;
+}
+
+
+input[type=password]:focus {
+    border-color: #024ef1;
+    box-shadow: 4px 4px 7px 6px rgba(0,0,0,0.25) #90979a;
+    outline: 2px solid transparent;
+}
+
+.wp-core-ui .button-secondary {
+    color: #323ddc;
+}
+.wp-core-ui .button-secondary:hover {
+    color: #0098f0;
+}
+
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large{
+   
+    border-color: #084fb8;
+    background: linear-gradient(to bottom,#084fb8 0%, #110266  50%, #084fb8 80%);
+}
+
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large:hover{
+    opacity: 0.5;
+}
+
+
+
+
+body.login div#login p#nav a,
+body.login div#login p#backtoblog a {
+    color: rgb(0, 0, 0)important; /* Your link color. */
+}
+body.login div#login p#nav a:hover,
+body.login div#login p#backtoblog a:hover {
+    opacity: 0.5;
+}
+
+body.login div#login p#nav a{
+    border: 1px solid #7f7e7e;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+body.login div#login p#backtoblog a{
+    border: 1px solid #7f7e7e;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 5px;
+}
+
